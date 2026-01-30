@@ -13,8 +13,14 @@ def install():
     if choice == 'y':
         # Create directory in /usr/share
         os.system('sudo mkdir -p /usr/share/mytor')
-        os.system('sudo cp tor.py /usr/share/mytor/tor.py')
         
+        # এখানে tor.py এর বদলে mytor.py দেওয়া হয়েছে
+        if os.path.exists('mytor.py'):
+            os.system('sudo cp mytor.py /usr/share/mytor/tor.py')
+        else:
+            print("\033[1;31m[!] Error: 'mytor.py' not found in current directory!\033[0m")
+            return
+
         # Create the launcher script in /usr/bin
         launcher_path = '/usr/bin/mytor'
         command = '#!/bin/bash\nexec python3 /usr/share/mytor/tor.py "$@"'
@@ -38,10 +44,7 @@ def install():
         print("\033[1;31m[!] Tool uninstalled successfully.\033[0m")
 
 if __name__ == "__main__":
-    # Check for root privileges
     if os.geteuid() != 0:
         print("[!] Please run this installer with sudo.")
     else:
         install()
-
-      
