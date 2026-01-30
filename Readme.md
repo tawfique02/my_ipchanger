@@ -34,6 +34,7 @@ sudo apt update && sudo apt install tor -y
 ```Bash
 git clone https://github.com/tawfique02/my_ipchanger.git
 cd my_ipchanger
+pip3 install -r requirements.txt --break-system-packages
 sudo python3 install.py
 ```
 3. Usage
