@@ -1,3 +1,9 @@
+
+# =============================================================
+# COPYRIGHT (C) 2026 Tawfique Elahey. ALL RIGHTS RESERVED.
+# This software is proprietary. Redistribution or modification 
+# of this code is strictly prohibited.
+# =============================================================
 # -*- coding: utf-8 -*-
 import time
 import os
