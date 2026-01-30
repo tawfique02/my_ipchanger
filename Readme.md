@@ -1,6 +1,6 @@
 # 🛡️ Advanced Auto Tor IP Changer (v2.2)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
 ![OS](https://img.shields.io/badge/OS-Linux%20%2F%20Kali-red?logo=linux)
 
 **Advanced Auto Tor IP Changer** is a professional-grade script designed for cybersecurity enthusiasts and researchers to automate IP rotation. It ensures anonymity by cycling through Tor exit nodes and verifying each new identity's geo-location.
@@ -66,6 +66,14 @@ The script interacts with the Tor Control Port. When the timer hits, it sends a 
 ├── tor_history.txt  # Auto-generated IP logs
 └── README.md        # Documentation
 ```
+## 📜 License
+This project is protected under a **Custom Proprietary License**. 
+All rights reserved by **tawfique02**. 
+
+- 🚫 No Modification 
+- 🚫 No Redistribution 
+- ✅ Personal Use Only 
+
 ### 📜 Disclaimer
 This tool is for Educational Purposes Only. Misuse of this tool for illegal activities is strictly prohibited. The developer is not responsible for any damage caused.
 
