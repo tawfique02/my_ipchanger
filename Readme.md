@@ -83,6 +83,14 @@ All rights reserved ❤️ by [**tawfique02**](https://github.com/tawfique02).
 - 🚫 No Modification 
 - 🚫 No Redistribution 
 - ✅ Personal Use Only 
+---
+## 🔍 Verify Your Anonymity
+Before starting the rotation, it is highly recommended to verify if your browser is correctly routed through the Tor network.
+
+1.  **Tor Check:** [check.torproject.org](https://check.torproject.org/) - To see if you are using Tor.
+2.  **DNS Leak Test:** [dnsleaktest.com](https://www.dnsleaktest.com/) - To ensure your real IP is not leaking through DNS.
+
+> **Tip:** This tool will automatically prompt you to open these links for your safety!
 
 ### 📜 Disclaimer
 This tool is for Educational Purposes Only. Misuse of this tool for illegal activities is strictly prohibited. The developer is not responsible for any damage caused.
