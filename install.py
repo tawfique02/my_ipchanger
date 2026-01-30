@@ -1,3 +1,8 @@
+# =============================================================
+# COPYRIGHT (C) 2026 tawfique02. ALL RIGHTS RESERVED.
+# This software is proprietary. Redistribution or modification 
+# of this code is strictly prohibited.
+# =============================================================
 import os
 import sys
 
