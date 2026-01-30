@@ -68,7 +68,7 @@ The script interacts with the Tor Control Port. When the timer hits, it sends a 
 ```
 ## 📜 License
 This project is protected under a **Custom Proprietary License**. 
-All rights reserved by **tawfique02**. 
+All rights reserved by [**tawfique02**](https://github.com/tawfique02). 
 
 - 🚫 No Modification 
 - 🚫 No Redistribution 
