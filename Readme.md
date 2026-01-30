@@ -1,7 +1,13 @@
-# 🛡️ Advanced Auto Tor IP Changer (v2.2)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
-![OS](https://img.shields.io/badge/OS-Linux%20%2F%20Kali-red?logo=linux)
+<h1 align="center">🛡️ Advanced Auto Tor IP Changer (v2.2)</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tawfique02/my_ipchanger/main/mage_d883wud883wud883.png" alt="Auto Tor IP Changer Banner" width="700">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License">
+  <img src="https://img.shields.io/badge/OS-Linux%20%2F%20Kali-red?logo=linux" alt="OS">
+</p>
 
 **Advanced Auto Tor IP Changer** is a professional-grade script designed for cybersecurity enthusiasts and researchers to automate IP rotation. It ensures anonymity by cycling through Tor exit nodes and verifying each new identity's geo-location.
 
@@ -52,7 +58,6 @@ Simply running the script changes the Tor service IP, but your browser needs to 
 ---
 
 ### 📸 Configuration Screenshot
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/tawfique02/my_ipchanger/main/Screenshot%202026-01-30%20200655.png" alt="Firefox Proxy Setup" width="700">
 </p>
