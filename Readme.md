@@ -37,23 +37,27 @@ After installation, you can run the tool from anywhere in your terminal:
 sudo mytor
 ```
 ### 🌐 How to Route Browser Traffic
-Simply running the script changes the Tor service IP, but your browser needs to be told to use that service. Follow these steps for Firefox:
 
-Open Firefox Settings and search for Proxy.
+Simply running the script changes the Tor service IP, but your browser needs to be told to use that service. Follow these steps for **Firefox**:
 
-Click Settings under "Network Settings".
+1.  Open **Firefox Settings** and search for **Proxy**.
+2.  Click **Settings** under **"Network Settings"**.
+3.  Configure as follows:
+    * **Selection:** Manual proxy configuration.
+    * **SOCKS Host:** `127.0.0.1`
+    * **Port:** `9050`
+    * **SOCKS Type:** SOCKS v5
+    * **Crucial:** Check the box **"Proxy DNS when using SOCKS v5"**.
 
-Configure as follows:
+---
 
-Selection: Manual proxy configuration.
+### 📸 Configuration Screenshot
 
-SOCKS Host: 127.0.0.1
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tawfique02/my_ipchanger/main/Screenshot%202026-01-30%20200655.png" alt="Firefox Proxy Setup" width="700">
+</p>
 
-Port: 9050
-
-SOCKS Type: SOCKS v5
-
-Crucial: Check the box "Proxy DNS when using SOCKS v5".
+---
 
 ### 📊 How It Works
 The script interacts with the Tor Control Port. When the timer hits, it sends a RELOAD or NEWNYM signal, forcing the Tor network to build a new circuit for your connection.
