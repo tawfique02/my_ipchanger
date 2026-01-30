@@ -1,5 +1,5 @@
 # =============================================================
-# COPYRIGHT (C) 2026 Tawfique Elahey. ALL RIGHTS RESERVED.
+# COPYRIGHT (C) 2026 tawfique02. ALL RIGHTS RESERVED.
 # This software is proprietary. Redistribution or modification 
 # of this code is strictly prohibited.
 # =============================================================
