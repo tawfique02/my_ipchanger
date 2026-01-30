@@ -1,4 +1,3 @@
-
 # =============================================================
 # COPYRIGHT (C) 2026 Tawfique Elahey. ALL RIGHTS RESERVED.
 # This software is proprietary. Redistribution or modification 
